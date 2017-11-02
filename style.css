@@ -1,0 +1,44 @@
+body {
+    background-color: #222333;
+    display: flex;
+    height: 100vh;
+    align-items: center; /* PION */
+    justify-content: center; /* POZIOM */
+}
+
+.status-bar {
+    width: 750px;
+    height: 80px;
+    background-color: #000000;
+    border: 3px solid #3d3f5c;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.status-bar h2 {
+    line-height: 80px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 250px;
+    text-align: center;
+}
+
+.container h3 {
+    float: left;
+    width: 375px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    color: white;
+    font-weight: 100;
+}
+
+.container h3:last-child {
+    text-align: right;
+}
+
+canvas {
+    float: left;
+    border: 3px solid #3d3f5c;
+}
